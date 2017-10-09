@@ -3,8 +3,8 @@ title: "Ribo-Seq"
 author: "Sascha Stutz, Peter Meili, Philipp Osterwalder"
 date: "3 Oktober 2017"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -13,25 +13,26 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Genome-Wide Analysis in Vivo of Translation with Nucleotide Resolution Using Ribosome Profiling
 
-## Statistics
+## Overview
 
-- A ribosome-profiling strategy based on deep sequencing of ribosome-protected mRNA fragments and enables genome-wide investigation of translation with subcodon resolution. 
+In [1](http://science.sciencemag.org/content/324/5924/218) a ribosome-profiling strategy is presented that is based on the deep sequencing of ribosome-protected mRNA fragments and enables genome-wide investigation of translation with subcodon resolution. A ribosome-profiling strategy that is based on the deep sequencing of ribosome-protected mRNA fragments is used and enables genome-wide investigation of translation with subcodon resolution. 
 
-- Used tp monitor translation in budding yeast under both rich and starvation conditions. 
 
-- ?
+# or
 
+# Ribosome Profiling
+
+Ribosome profiling, or Ribo-Seq (also named Ribosome footprinting), is an adaptation  to work with next generation sequencing that uses specialized messenger RNA (mRNA) sequencing to determine which mRNAs are being actively translated. It produces a “global snapshot” of all the ribosomes active in a cell at a particular moment, known as a translatome. Consequently, this enables identifying the location of translation start sites, the complement of translated ORFs in a cell or tissue, the distribution of ribosomes on a messenger RNA, and the speed of translating ribosomes.
+
+## Linking Technologies to Applications to Statistics 
+
+
+
+## github usernames
+
+- pmeili
+- stusas
 
 #### References:
 [1: http://science.sciencemag.org/content/324/5924/218](http://science.sciencemag.org/content/324/5924/218)
-
-## Brainstorm: Applications in genomics
-
-e.g., gene expression
-
-## Linking Technologies to Applications to Statistics (mainstream)
-
-## Methods/algorithms/data structures that are associated more to computer science
-
-## Pick another "technology" (from those above, from [1] or another technology) to briefly describe
 
